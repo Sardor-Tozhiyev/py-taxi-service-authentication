@@ -135,6 +135,6 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-LOGIN_URL = "login"
+LOGIN_URL = "login-page"
 LOGIN_REDIRECT_URL = "taxi:index"
 LOGOUT_REDIRECT_URL = "taxi:index"
